@@ -1,6 +1,14 @@
 package com.lexneoapps.newsapp.models
 
+import androidx.room.Entity
+import androidx.room.PrimaryKey
+
+@Entity(
+    tableName = "article_table"
+)
 data class Article(
+    @PrimaryKey(autoGenerate = true)
+    var id : Int? = null,
     val author: Any,
     val content: String,
     val description: String,
