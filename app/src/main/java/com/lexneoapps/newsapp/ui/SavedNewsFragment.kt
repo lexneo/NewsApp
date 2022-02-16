@@ -5,6 +5,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import androidx.fragment.app.viewModels
 import com.lexneoapps.newsapp.R
 import com.lexneoapps.newsapp.databinding.FragmentsSavedNewsBinding
 
@@ -12,6 +13,8 @@ class SavedNewsFragment : Fragment(R.layout.fragments_saved_news) {
 
 
     private var _binding: FragmentsSavedNewsBinding? = null
+    private val viewModel : NewsViewModel by viewModels()
+
 
 
     // This property is only valid between onCreateView and

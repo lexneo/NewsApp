@@ -5,6 +5,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import androidx.fragment.app.viewModels
 import com.lexneoapps.newsapp.R
 import com.lexneoapps.newsapp.databinding.FragmentSearchNewsBinding
 
@@ -12,6 +13,8 @@ class SearchNewsFragment : Fragment(R.layout.fragment_search_news) {
 
 
     private var _binding: FragmentSearchNewsBinding? = null
+    private val viewModel : NewsViewModel by viewModels()
+
 
 
     // This property is only valid between onCreateView and
