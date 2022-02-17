@@ -9,7 +9,8 @@
         <entry key="..\:/Users/BracaMarinkovic/AndroidStudioProjects/NewsApp/app/src/main/res/drawable/ic_breaking_news.xml" value="0.387" />
         <entry key="..\:/Users/BracaMarinkovic/AndroidStudioProjects/NewsApp/app/src/main/res/drawable/ic_favorite.xml" value="0.387" />
         <entry key="..\:/Users/BracaMarinkovic/AndroidStudioProjects/NewsApp/app/src/main/res/layout/activity_main.xml" value="0.16111111111111112" />
-        <entry key="..\:/Users/BracaMarinkovic/AndroidStudioProjects/NewsApp/app/src/main/res/layout/fragment_article.xml" value="0.16111111111111112" />
+        <entry key="..\:/Users/BracaMarinkovic/AndroidStudioProjects/NewsApp/app/src/main/res/layout/fragment_article.xml" value="0.5" />
+        <entry key="..\:/Users/BracaMarinkovic/AndroidStudioProjects/NewsApp/app/src/main/res/layout/fragment_breaking_news.xml" value="0.18819655521783182" />
         <entry key="..\:/Users/BracaMarinkovic/AndroidStudioProjects/NewsApp/app/src/main/res/layout/fragment_search_news.xml" value="0.16111111111111112" />
         <entry key="..\:/Users/BracaMarinkovic/AndroidStudioProjects/NewsApp/app/src/main/res/layout/fragment_start.xml" value="0.16111111111111112" />
         <entry key="..\:/Users/BracaMarinkovic/AndroidStudioProjects/NewsApp/app/src/main/res/layout/fragments_saved_news.xml" value="0.16111111111111112" />
