@@ -5,6 +5,7 @@ import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.viewModelScope
 import com.lexneoapps.newsapp.db.ArticleDatabase
+import com.lexneoapps.newsapp.models.Article
 import com.lexneoapps.newsapp.models.NewsResponse
 import com.lexneoapps.newsapp.repository.NewsRepository
 import com.lexneoapps.newsapp.utils.Resource
@@ -56,5 +57,15 @@ class NewsViewModel(application: Application) : AndroidViewModel(application) {
             }
         }
         return Resource.Error(response.message())
+    }
+
+    fun saveArticle(article: Article) = viewModelScope.launch {
+        newsRepository.upsert(article)
+    }
+
+    fun getSavedNews() = newsRepository.getSavedNews()
+
+    fun deleteArticle(article: Article) = viewModelScope.launch {
+        newsRepository.deleteArticle(article)
     }
 }
